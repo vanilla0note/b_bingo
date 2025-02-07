@@ -1,0 +1,119 @@
+﻿a{color:#0000FF;}
+@font-face {
+  font-family:'msjhbd';
+  src: url('/fonts/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+input[type="text"]{
+    width: 240px;
+    height: 40px;
+    font-size: 26px;
+    font-family: Microsoft JhengHei;
+
+    text-align:left;
+    padding-left:5px;
+}
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+input[type="submit"]{
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Microsoft JhengHei;
+
+    text-align:center;
+}
+button {
+    display: inline-block;
+
+    color: black;
+    font-size: 24px;
+    font-family:Microsoft JhengHei,msjhbd;
+    margin: 4px 2px;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#page-header {
+    width:100%;
+    height:80px;
+    color:#000000;
+    text-align:left;
+
+    position:fixed;
+    top:0px;
+    left:0px;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:12px;
+    line-height:20px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    padding-left:20%;
+
+    background-color:#f8c4d7;
+    /*background-image:url('../../img/background.jpg');*/
+    z-index:99;
+}
+h2{
+    text-align:center;
+}
+
+
+#page-main {
+    width:670px;
+    height:600px;
+
+    margin:90px auto;
+}
+#result{
+    width:670px;
+    height:2000px;
+
+    margin:0px auto ;
+
+    /*background-color:#FF0000;*/
+}
+
+
+.bingo_title,.bingo_content{
+    color:#000;
+
+    height:60px;
+
+    text-align:center;
+    border:#FFFFFF 5px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:28px;
+    line-height:60px;
+
+    background-color:#faf5c3;
+
+    float:left;
+}
+.bingo_title{width:100px;font-weight:bold;}
+.bingo_content{width:100px;font-weight:normal;}
+
+
+.bingo_index{
+    width:300px;
+    height:150px;
+
+    text-align:center;
+    border:#FFFFFF 5px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:22px;
+    line-height:150px;
+
+    background-color:#faf5c3;
+
+    float:left;
+    background-color:#FFFFFF;
+}

@@ -1,0 +1,119 @@
+﻿a{color:#0099CC;text-decoration:none;}
+li{color:#0267AB;cursor:pointer;padding-left:1px;font-size:26px;}
+h2{color:#000000;font-family:Microsoft JhengHei,msjhbd;font-size:34px;font-weight:bold;letter-spacing: 16px;text-align:center;}
+
+#page-header {
+    width:100%;
+    height:80px;
+    color:#000000;
+    text-align:left;
+
+    position:fixed;
+    top:0px;
+    left:0px;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:16px;
+    line-height:40px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    padding-left:20%;
+
+    /*background-color:#f17e7e;*/
+    background-image:url('../../img/background.jpg');
+    background-repeat: repeat-x;
+    z-index:99;
+}
+
+
+#page-main {
+    width: 1300px;
+    height: 1350px;
+
+    margin: 68px auto;
+    
+    /*background-color:#FF0000;*/
+}
+#result_inn,#result01, #result02 {
+    width: 1300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+#result_inn{height: 260px;border: #EEEEEE 1px dashed;background-color: #fdf6e3;margin: 0 auto;}
+#result01{height: 380px;border: #EEEEEE 1px dashed;background-color: #fdf6e3;margin: 20px auto;}
+#result02{height: 380px;border: #EEEEEE 1px dashed;background-color: #fdf6e3;margin: 40px auto;}
+#result_inn01{width: 1200px;height: 120px;margin: 10px 0 0 30px;color:#000000;font-family:Microsoft JhengHei,msjhbd;font-size:34px;font-weight:500;letter-spacing: 2px;text-align:left;line-height:45px;}
+
+
+.bingo_total_all {
+    width: 194px;
+    height: 194px;
+
+    border: #FFFFFF 4px dashed;
+    font-family: Microsoft JhengHei,msjhbd;
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    line-height: 190px;
+    font-weight: bold;
+    margin: 10px 29px;
+    
+    background-color: #f2f0e6;
+    float: left;
+
+    cursor:pointer;
+}
+
+#bingo_total_b0a{background:#fac953 url('../../img/lott/lott_total_b0a.png') no-repeat bottom;}
+#bingo_total_b0b{background:#fac953 url('../../img/lott/lott_total_b0b.png') no-repeat bottom;}
+#bingo_total_b01{background:#fac953 url('../../img/lott/lott_total_b01.png') no-repeat bottom;}
+#bingo_total_b02{background:#fac953 url('../../img/lott/lott_total_b02.png') no-repeat bottom;}
+#bingo_total_b03{background:#fac953 url('../../img/lott/lott_total_b03.png') no-repeat bottom;}
+#bingo_total_b04{background:#fac953 url('../../img/lott/lott_total_b04.png') no-repeat bottom;}
+#bingo_total_b04a{background:#fac953 url('../../img/lott/lott_total_b04a.png') no-repeat bottom;}
+#bingo_total_b04b{background:#fac953 url('../../img/lott/lott_total_b04b.png') no-repeat bottom;}
+#bingo_total_b05{background:#fac953 url('../../img/lott/lott_total_b05.png') no-repeat bottom;}
+#bingo_total_b05a{background:#fac953 url('../../img/lott/lott_total_b05a.png') no-repeat bottom;}
+#bingo_total_b05b{background:#fac953 url('../../img/lott/lott_total_b05b.png') no-repeat bottom;}
+#bingo_total_b06{background:#fac953 url('../../img/lott/lott_total_b06.png') no-repeat bottom;}
+#bingo_total_b07{background:#fac953 url('../../img/lott/lott_total_b07.png') no-repeat bottom;}
+#bingo_total_b07a{background:#fac953 url('../../img/lott/lott_total_b07a.png') no-repeat bottom;}
+#bingo_total_b07b{background:#fac953 url('../../img/lott/lott_total_b07b.png') no-repeat bottom;}
+#bingo_total_b08{background:#fac953 url('../../img/lott/lott_total_b08.png') no-repeat bottom;}
+#bingo_total_b08a{background:#fac953 url('../../img/lott/lott_total_b08a.png') no-repeat bottom;}
+#bingo_total_b08b{background:#fac953 url('../../img/lott/lott_total_b08b.png') no-repeat bottom;}
+#bingo_total_b08c{background:#fac953 url('../../img/lott/lott_total_b08c.png') no-repeat bottom;}
+#bingo_total_b08d{background:#fac953 url('../../img/lott/lott_total_b08d.png') no-repeat bottom;}
+#bingo_total_b09{background:#fac953 url('../../img/lott/lott_total_b09.png') no-repeat bottom;}
+#bingo_total_b10{background:#fac953 url('../../img/lott/lott_total_b10.png') no-repeat bottom;}
+#bingo_total_b11{background:#fac953 url('../../img/lott/lott_total_b11.png') no-repeat bottom;}
+#bingo_total_b12{background:#fac953 url('../../img/lott/lott_total_b12.png') no-repeat bottom;}
+#bingo_total_b13{background:#fac953 url('../../img/lott/lott_total_b13.png') no-repeat bottom;}
+
+#bingo_total_b70{background:#fac953 url('../../img/lott/lott_total_b70.png') no-repeat bottom;}
+
+#bingo_total_c01{background:#fac953 url('../../img/lott/lott_total_c01.png') no-repeat bottom;}
+#bingo_total_c01a{background:#fac953 url('../../img/lott/lott_total_c01a.png') no-repeat bottom;}
+#bingo_total_c01b{background:#fac953 url('../../img/lott/lott_total_c01b.png') no-repeat bottom;}
+#bingo_total_c01c{background:#fac953 url('../../img/lott/lott_total_c01c.png') no-repeat bottom;}
+#bingo_total_c01d{background:#fac953 url('../../img/lott/lott_total_c01d.png') no-repeat bottom;}
+#bingo_total_c02{background:#fac953 url('../../img/lott/lott_total_c02.png') no-repeat bottom;}
+#bingo_total_c02a{background:#fac953 url('../../img/lott/lott_total_c02a.png') no-repeat bottom;}
+#bingo_total_c02b{background:#fac953 url('../../img/lott/lott_total_c02b.png') no-repeat bottom;}
+#bingo_total_c02c{background:#fac953 url('../../img/lott/lott_total_c02c.png') no-repeat bottom;}
+#bingo_total_c02d{background:#fac953 url('../../img/lott/lott_total_c02d.png') no-repeat bottom;}
+#bingo_total_c03{background:#fac953 url('../../img/lott/lott_total_c03.png') no-repeat bottom;}
+#bingo_total_c04{background:#fac953 url('../../img/lott/lott_total_c04.png') no-repeat bottom;}
+#bingo_total_c05{background:#fac953 url('../../img/lott/lott_total_c05.png') no-repeat bottom;}
+#bingo_total_c06{background:#fac953 url('../../img/lott/lott_total_c06.png') no-repeat bottom;}
+#bingo_total_c07{background:#fac953 url('../../img/lott/lott_total_c07.png') no-repeat bottom;}
+#bingo_total_c08{background:#fac953 url('../../img/lott/lott_total_c08.png') no-repeat bottom;}
+#bingo_total_c09{background:#fac953 url('../../img/lott/lott_total_c09.png') no-repeat bottom;}
+#bingo_total_c10{background:#fac953 url('../../img/lott/lott_total_c10.png') no-repeat bottom;}
+#bingo_total_c11{background:#fac953 url('../../img/lott/lott_total_c11.png') no-repeat bottom;}
+#bingo_total_c69a{background:#fac953 url('../../img/lott/lott_total_c69a.png') no-repeat bottom;}
+#bingo_total_c69b{background:#fac953 url('../../img/lott/lott_total_c69b.png') no-repeat bottom;}
+#bingo_total_c69c{background:#fac953 url('../../img/lott/lott_total_c69c.png') no-repeat bottom;}
+#bingo_total_c69d{background:#fac953 url('../../img/lott/lott_total_c69d.png') no-repeat bottom;}
+#bingo_total_d69{background:#fac953 url('../../img/lott/lott_total_d69.png') no-repeat bottom;}
+#bingo_total_c70{background:#fac953 url('../../img/lott/lott_total_c70.png') no-repeat bottom;}

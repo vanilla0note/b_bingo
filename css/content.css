@@ -1,0 +1,100 @@
+﻿@font-face {
+  font-family:'msjhbd';
+  src: url('fonts/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input[type="text"],[type="password"]{
+    font-size:16px;
+    font-family:Microsoft JhengHei;
+    padding:5px;
+
+    width:320px;
+}
+input[type="submit"]{
+    width:100px;
+    height:50px;
+
+    font-size:17px;
+    font-family:Microsoft JhengHei;
+}
+
+
+#page-main {
+    width:540px;
+    height:500px;
+
+    margin:200px auto;
+
+    /*background-color:#FF0000;*/
+}
+#login_title {
+    width: 530px;
+    height: 40px;
+    margin: 0 auto;
+    float: left;
+    border: 1px solid;
+    border-color: #ccc #ccc #fff #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding: 0 0 0 5px;
+    background-color: #febc5f;
+    -moz-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    -webkit-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+#login_content{
+    width: 520px;
+    height:300px;
+        
+    margin:0 auto;
+    float:left;
+
+    border:1px solid;
+    border-color:#ccc;
+    border-top-left-radius  : 0px;
+    border-top-right-radius : 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius : 5px;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:22px;
+    font-weight:normal;
+    letter-spacing: 5px;
+    line-height:0px;
+    padding:25px 0 0 15px;
+
+    margin-top:-5px;
+    background-color:#f0cfa1;
+
+    -moz-box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    -webkit-box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+.login_con1{
+    width:360px;
+    height:80px;
+    margin:10px auto 10px auto;
+
+    /*background-color:#00FF00;*/
+}
+.login_con2{
+    width:200px;
+    height:50px;
+    margin:10px auto;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    font-weight:normal;
+    letter-spacing: 5px;
+
+    /*background-color:#00FF00;*/
+}

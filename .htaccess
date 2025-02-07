@@ -1,0 +1,5 @@
+RewriteEngine on
+
+#¥¿¦¡
+DirectoryIndex content.html
+

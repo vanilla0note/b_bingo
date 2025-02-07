@@ -1,0 +1,23 @@
+@font-face {
+  font-family:'msjhbd';
+  src: url('fonts/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 基本設定 */
+html {font-family:Microsoft JhengHei,msjhbd;font-size:18px;line-height:30px;}
+body {background-color: #FFFFFF;}
+img {vertical-align: middle;}
+button {outline: none;cursor: pointer;}
+small a{font-size:14px;color:#FFFFFF;}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
